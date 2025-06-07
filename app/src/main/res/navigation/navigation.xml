@@ -1,0 +1,16 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@+id/fragmentBookList">
+    <fragment
+        android:id="@+id/fragmentBookList"
+        android:name="com.example.homework3.BookListFragment"
+        android:label="Book List"
+        tools:layout="@layout/fragment_booklist" />
+    <fragment
+        android:id="@+id/fragmentBookAdd"
+        android:name="com.example.homework3.BookAddFragment"
+        android:label="Book Add"
+        tools:layout="@layout/fragment_addbook" />
+</navigation>
